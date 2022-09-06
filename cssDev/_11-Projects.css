@@ -1,0 +1,68 @@
+h1 {
+    margin: 2rem;
+    text-align: center;
+}
+
+.container {
+    /* border: 1px solid; */
+    height: 1000px;
+    margin: 10px;
+}
+
+.imagenes {
+    /* margin: 100px; */
+    height: 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+    flex-direction: row;
+    margin-left: 10px;
+}
+
+.box {
+    border: var(--elementBorderFinal);
+    text-align: center;
+    line-height: 100px;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+.img {
+    margin: 100px;
+    height: 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+    flex-direction: row;
+}
+
+.img3 {
+    margin: 100px;
+    height: 10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* justify-content: space-evenly; */
+    flex-direction: row;
+}
+
+.pro {
+    height: 100px;
+    width: 200px;
+}
+
+.btn {
+    justify-content: center;
+    min-width: 130px;
+}
+
+.btn .btn-outline-secondary {
+    background-color: aqua;
+    border: var(--elementBorderLigero);
+}

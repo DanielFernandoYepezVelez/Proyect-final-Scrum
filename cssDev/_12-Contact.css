@@ -1,0 +1,36 @@
+.title {
+    margin-top: 2rem;
+    text-align: center;
+}
+
+.container {
+    margin: 0px auto;
+}
+
+.contacto {
+    border: var(--elementBorderFinal);
+    /* height: 450px; */
+    height: 615px;
+    width: 500px;
+    padding: 2rem 3rem;
+    /* margin: 150px 350px; */
+    /* margin: 150px 295px; */
+    margin: 100px 295px;
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: white;
+}
+
+.contacto input {
+    padding: 1.5rem;
+    margin-bottom: 1.5rem;
+    border: var(--elementBorderLigero);
+}
+
+.form-label {
+    margin: 0px 20px;
+    text-align: center;
+    border: 10px;
+}

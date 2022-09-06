@@ -1,0 +1,53 @@
+.tituloAcercaDe {
+    text-align: center;
+    /* padding-top: 0.5rem; */
+    margin: 2rem;
+    text-transform: uppercase;
+}
+
+.imagenBannerEmpresa {
+    /* border: 1px solid; */
+    margin: 2em auto;
+    /* width: 40rem; */
+    width: 11rem;
+    height: 10rem;
+    box-shadow: 0 0 0 var(--colorPrimario), 0 0 0 var(--colorPrimario), 0 0 0 var(--colorPrimario), 0 0 0 var(--colorPrimario), 0 0 0 var(--colorPrimario), 0 0 25px var(--colorPrimario);
+}
+
+.imagenBannerEmpresa .imgEmpresa {
+    height: 10rem;
+    width: 40rem;
+}
+
+.DescripcionHistoria {
+    width: 40rem;
+    height: 15rem;
+    margin: 2rem auto;
+    flex-wrap: wrap;
+}
+
+h3 {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.imgClientes {
+    border: 3px solid var(--colorPrimario);
+    margin-top: 1rem;
+    border-radius: 50%;
+    height: 10rem;
+    width: 10rem;
+    justify-content: center;
+    justify-items: center;
+    box-shadow: 0 0 0 var(--colorPrimario), 0 0 0 var(--colorPrimario), 0 0 0 var(--colorPrimario), 0 0 0 var(--colorPrimario), 0 0 0 var(--colorPrimario), 0 0 25px var(--colorPrimario);
+}
+
+.containerClientes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+/* .container {
+    width: 50rem;
+} */
