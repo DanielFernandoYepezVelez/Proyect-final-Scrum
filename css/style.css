@@ -523,6 +523,12 @@ h1 {
     min-width: 130px;
 }
 
+.extra {
+    margin-top: 3.5rem;
+    height: 4rem;
+    background-color: var(--colorOscuro);
+}
+
 
 /** CONTACT STYLES */
 
