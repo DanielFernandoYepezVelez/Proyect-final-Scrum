@@ -391,7 +391,7 @@ h1 {
 .padre {
     display: flex;
     justify-content: space-evenly;
-    margin-top: 300px;
+    /* margin-top: 300px; */
 }
 
 .row {
